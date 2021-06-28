@@ -10,7 +10,11 @@ public class Gato extends Animal {
 
     public Gato() {
     }
-
+    
+    public void hablar(){
+        System.out.println("Miau");
+    }
+    
     public Gato(String raza, String color, String tamano, int numeroPatas) {
         super(numeroPatas);
         this.raza = raza;

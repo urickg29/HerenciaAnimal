@@ -11,7 +11,9 @@ public class Principal {
         Perro p1=new Perro("Pastor aleman", "Cafe", "Grande", 4);
         
         System.out.println("Raza: "+g1.getRaza()+" Color: "+g1.getColor()+" Tamaño: "+g1.getTamano()+" Numero de patas: "+g1.getNumeroPatas());
+        g1.hablar();
         System.out.println("Raza: "+p1.getRaza()+" Color: "+p1.getColor()+" Tamaño: "+p1.getTamano()+" Numero de patas: "+p1.getNumeroPatas());
+        p1.hablar();
     }
     
 }
